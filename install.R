@@ -8,7 +8,7 @@ install.packages(c(
     "tidyr",
     "IRdisplay",
     "IRkernel",
-    "reshape",
+    "reshape2",
     "remotes",
     "readxl",
     "outbreaks",
