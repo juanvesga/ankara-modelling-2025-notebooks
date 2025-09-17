@@ -22,7 +22,8 @@ install.packages(c(
     "here",
     "devtools",  # More reliable than githubinstall
     "odin",
-    "dde"
+    "dde",
+    "socialmixr"
 ))
 
 
