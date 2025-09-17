@@ -1,5 +1,6 @@
 # Install CRAN packages
 install.packages(c(
+    "epicontacts",
     "readr",
     "deSolve",
     "gridExtra",
