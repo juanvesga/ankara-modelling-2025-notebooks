@@ -21,7 +21,8 @@ install.packages(c(
     "outbreaker2",
     "here",
     "devtools",  # More reliable than githubinstall
-    "odin"
+    "odin",
+    "dde"
 ))
 
 # Add drat repository and install packages
