@@ -22,7 +22,9 @@ install.packages(c(
     "here",
     "devtools",  # More reliable than githubinstall
     "odin",
-    "dde"
+    "dde",
+    "epicontacts"
+    
 ))
 
 # Add drat repository and install packages
@@ -35,7 +37,7 @@ library(remotes)
 # Install GitHub packages
 install_github("annecori/EpiEstim")
 install_github("reconhub/projections")
-install_github("reconhub/epicontacts")
+
 
 # Note: epinow2 has heavy dependencies, might cause timeout
 # install_github("reconhub/epinow2")
