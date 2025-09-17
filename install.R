@@ -20,12 +20,13 @@ install.packages(c(
     "ape",
     "outbreaker2",
     "here",
-    "devtools"  # More reliable than githubinstall
+    "devtools",  # More reliable than githubinstall
+    "odin"
 ))
 
 # Add drat repository and install packages
-drat:::add("mrc-ide")
-install.packages(c("dde", "odin"))
+#drat:::add("mrc-ide")
+#install.packages(c("dde", "odin"))
 
 # Install GitHub packages using remotes (more reliable than githubinstall)
 library(remotes)
