@@ -1,6 +1,5 @@
 # Install CRAN packages
 install.packages(c(
-    "epicontacts",
     "readr",
     "deSolve",
     "gridExtra",
@@ -25,6 +24,10 @@ install.packages(c(
     "odin",
     "dde"
 ))
+
+
+# System dependencies will be handled by apt.txt
+install.packages(c("igraph", "epicontacts"), dependencies = TRUE)
 
 # Add drat repository and install packages
 #drat:::add("mrc-ide")
